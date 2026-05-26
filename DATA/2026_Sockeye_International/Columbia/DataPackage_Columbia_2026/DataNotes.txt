@@ -1,0 +1,12 @@
+DATA NOTES
+
+Data Package created on 2026-05-26
+
+Documentation at https://github.com/SOLV-Code/SalmonPrize_DataManagement
+
+Source files and notes for this data package in the folder
+DATA/2026_Sockeye_International/Columbia
+
+R code to generate these files is at CODE/1_ReorganizeData.RTHIS DATA PROCESSING CODE WAS JUST CREATED FRESH AND IS STILL UNDER DEVELOPMENT.
+PLEASE DOUBLE CHECK AND LEAVE A COMMENT IF ANYTHING LOOKS WEIRD.
+For comments, go to the Issues page at https://github.com/SOLV-Code/SalmonPrize_DataManagement/issues
