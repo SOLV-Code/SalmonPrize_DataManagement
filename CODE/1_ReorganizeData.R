@@ -95,7 +95,6 @@ file.copy("DATA/Lookup_Files/MANUALLY_UPDATED_AgeClass_Lookup.csv",
 write_csv(full.data.long.df,paste0(target.folder,"/FullDataSet_LongFormat.csv"))
 write_csv(sr.df,paste0(target.folder,"/SpawnerRecruit_ByBroodYear.csv"))
 
-
 # Add a notes file
 
 sink(paste0(target.folder,"/DataNotes.txt"))
@@ -109,12 +108,40 @@ cat("Source files and notes for this data package in the folder\n")
 cat(path)
 cat("\n\n")
 cat("R code to generate these files is at CODE/1_ReorganizeData.R")
-
+cat("\n\n")
 cat("THIS DATA PROCESSING CODE WAS JUST CREATED FRESH AND IS STILL UNDER DEVELOPMENT.\n")
 cat("PLEASE DOUBLE CHECK AND LEAVE A COMMENT IF ANYTHING LOOKS WEIRD.\n")
 cat("For comments, go to the Issues page at https://github.com/SOLV-Code/SalmonPrize_DataManagement/issues")
 
 sink()
+
+
+# Add a template for the retrospective submission
+
+retro.yrs <- tail(sort(unique(returns.df$ReturnYear)),5)
+
+retro.df <- returns.df %>% select(System,River,	ReturnYear) %>%
+            dplyr::filter(ReturnYear %in% retro.yrs ) %>%
+            mutate(Predicted_TotalReturn = NA)
+
+write_csv(retro.df,paste0(target.folder,"/Retrospective_Template.csv"))
+
+sink(paste0(target.folder,"/Retrospective_Notes.txt"))
+cat("RETROSPECTIVE NOTES\n\n")
+
+cat("To enter for the retrospective prize:")
+cat("\n\n")
+cat("- Apply your candidate model in a true retrospective (e.g., use data up to 2023 to predict 2024)")
+cat("\n\n")
+cat("- Copy the results into the template")
+cat("\n\n")
+cat("You should be able to upload the complete template as part of the additional documentation field on the website.\n")
+cat("If you run into any issues with the upload, just e-mail the file to one of the organizers.\n")
+
+
+sink()
+
+
 
 
 
