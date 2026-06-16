@@ -10,6 +10,6 @@ Repository for reorganizing and archiving the data sets
    - a folder with source files, notes, and any documentation that accumulates in response to questions
    - a folder with generated alternative versions of the data (e.g., reorganized by brood year)
 
-* CODE folder has some scripts the implement the data reorg
+* CODE folder has some scripts that implement the data reorg
 
 

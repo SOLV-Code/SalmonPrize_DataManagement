@@ -1,28 +1,28 @@
-# Age Class Lookup ,,,,,
-# Age = age of returning adults,,,,,
-# FW_Winters = winters spent rearing in freshwater,,,,,
-# Mar_Winters = winters spent in ocean,,,,,
-# Euro = European Notation listing FW_Winters and Mar_Winters; separated by dot,,,,,
-# GR = Gilbert-Rich notation listing total age and years (not winters) in freshwater,,,,,
-# Label = label used in code and data sets for the Sockeye International Competition,,,,,
-# Example: An adult with AgeClass_1.2 (4_2) returning in 2026 is a 4-year old from the 2022 brood year spawners; ,,,,,
-#  emerged from the gravel in 2023 and migrated to the ocean in 2024 after 1 winter in freshwater (but in the 2nd year after the spawning event).,,,,,
-Age,FW_Winters,Mar_Winters,Euro,GR,Label
-2,0,1,0.1,2_1,AgeClass_0.1
-3,0,2,0.2,3_1,AgeClass_0.2
-4,0,3,0.3,4_1,AgeClass_0.3
-5,0,4,0.4,5_1,AgeClass_0.4
-6,0,5,0.5,6_1,AgeClass_0.5
-3,1,1,1.1,3_2,AgeClass_1.1
-4,1,2,1.2,4_2,AgeClass_1.2
-5,1,3,1.3,5_2,AgeClass_1.3
-6,1,4,1.4,6_2,AgeClass_1.4
-7,1,5,1.5,7_2,AgeClass_1.5
-4,2,1,2.1,4_3,AgeClass_2.1
-5,2,2,2.2,5_3,AgeClass_2.2
-6,2,3,2.3,6_3,AgeClass_2.3
-7,2,4,2.4,7_3,AgeClass_2.4
-5,3,1,3.1,5_4,AgeClass_3.1
-6,3,2,3.2,6_4,AgeClass_3.2
-7,3,3,3.3,7_4,AgeClass_3.3
-8,3,4,3.4,8_4,AgeClass_3.4
+# Age Class Lookup ,,,,,,
+# Age = age of returning adults,,,,,,
+# FW_Winters = winters spent rearing in freshwater,,,,,,
+# Mar_Winters = winters spent in ocean,,,,,,
+# Euro = European Notation listing FW_Winters and Mar_Winters; separated by dot,,,,,,
+# GR = Gilbert-Rich notation listing total age and years (not winters) in freshwater,,,,,,
+# Label = label used in code and data sets for the Sockeye International Competition,,,,,,
+# Example: An adult with AgeClass_1.2 (4_2) returning in 2026 is a 4-year old from the 2022 brood year spawners; ,,,,,,
+#  emerged from the gravel in 2023 and migrated to the ocean in 2024 after 1 winter in freshwater (but in the 2nd year after the spawning event).,,,,,,
+Age,FW_Winters,Mar_Winters,Euro,GR,GRShort,Label
+2,0,1,0.1,2_1,21,AgeClass_0.1
+3,0,2,0.2,3_1,31,AgeClass_0.2
+4,0,3,0.3,4_1,41,AgeClass_0.3
+5,0,4,0.4,5_1,51,AgeClass_0.4
+6,0,5,0.5,6_1,61,AgeClass_0.5
+3,1,1,1.1,3_2,32,AgeClass_1.1
+4,1,2,1.2,4_2,42,AgeClass_1.2
+5,1,3,1.3,5_2,52,AgeClass_1.3
+6,1,4,1.4,6_2,62,AgeClass_1.4
+7,1,5,1.5,7_2,72,AgeClass_1.5
+4,2,1,2.1,4_3,43,AgeClass_2.1
+5,2,2,2.2,5_3,53,AgeClass_2.2
+6,2,3,2.3,6_3,63,AgeClass_2.3
+7,2,4,2.4,7_3,73,AgeClass_2.4
+5,3,1,3.1,5_4,54,AgeClass_3.1
+6,3,2,3.2,6_4,64,AgeClass_3.2
+7,3,3,3.3,7_4,74,AgeClass_3.3
+8,3,4,3.4,8_4,84,AgeClass_3.4

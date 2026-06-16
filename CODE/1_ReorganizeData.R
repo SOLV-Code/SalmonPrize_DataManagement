@@ -157,3 +157,30 @@ reorg_data(path = "DATA/2026_Sockeye_International/Columbia",
             # have returns for 2025, and using ages 3:6
             # 2019 is the last year for which we have age 6 recruits
 
+
+
+# 2026 Sockeye International - FRASER
+
+# prep: extract and reorg the returns by age
+
+ages.lookup <- read_csv("DATA/Lookup_Files/MANUALLY_UPDATED_AgeClass_Lookup.csv",comment="#")
+
+psc.sr.src <- read_csv("DATA/2026_Sockeye_International/Fraser/1_SourceData/Download/Stock-recruit-Data_Detailed-Format.csv") %>%
+  left_join(ages.lookup %>% select(Euro,GRShort) %>% dplyr::rename(age = GRShort), by = "age")
+
+
+sort(unique(psc.sr.src$production_stock_name))
+
+# extract returns by age
+
+fraser.stks.vec <- c("Chilko","Late Stuart","Quesnel","Raft", "Stellako" )
+
+psc.sr.src %>%
+  dplyr::filter(production_stock_name %in% fraser.stks.vec) %>%
+  mutate(System = "Fraser River") %>%
+  dplyr::rename(River = production_stock_name,ReturnYear = returnyr) %>%
+  pivot_wider(id_cols = c(System, River, ReturnYear),
+              names_prefix = "AgeClass_", names_from = Euro,values_from = num_recruits)
+
+
+#   select(System, River, ReturnYear,age,num_recruits) %>%
