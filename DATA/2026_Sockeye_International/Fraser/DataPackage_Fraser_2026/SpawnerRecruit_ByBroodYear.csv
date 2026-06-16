@@ -1,0 +1,391 @@
+System,River,BroodYear,Total_Spawners_BroodYear,Total_Recruits,TotRecPerTotSpn
+Fraser River,Chilko,1948,671025,1947973,2.903
+Fraser River,Chilko,1949,58310,623138,10.687
+Fraser River,Chilko,1950,26447,205875,7.784
+Fraser River,Chilko,1951,118110,752327,6.37
+Fraser River,Chilko,1952,490065,1858476,3.792
+Fraser River,Chilko,1953,201245,619456,3.078
+Fraser River,Chilko,1954,37743,712749,18.884
+Fraser River,Chilko,1955,132146,1513275,11.452
+Fraser River,Chilko,1956,647768,2435670,3.76
+Fraser River,Chilko,1957,140765,138228,0.982
+Fraser River,Chilko,1958,137081,433371,3.161
+Fraser River,Chilko,1959,471162,2212583,4.696
+Fraser River,Chilko,1960,426607,1053335,2.469
+Fraser River,Chilko,1961,40315,69453,1.723
+Fraser River,Chilko,1962,92467,985562,10.659
+Fraser River,Chilko,1963,1002252,1206303,1.204
+Fraser River,Chilko,1964,238601,2040082,8.55
+Fraser River,Chilko,1965,39902,158944,3.983
+Fraser River,Chilko,1966,226702,889200,3.922
+Fraser River,Chilko,1967,176337,2004710,11.369
+Fraser River,Chilko,1968,414446,2476069,5.974
+Fraser River,Chilko,1969,76518,402359,5.258
+Fraser River,Chilko,1970,145049,694456,4.788
+Fraser River,Chilko,1971,186589,852842,4.571
+Fraser River,Chilko,1972,564465,2109574,3.737
+Fraser River,Chilko,1973,61707,248297,4.024
+Fraser River,Chilko,1974,142595,712467,4.996
+Fraser River,Chilko,1975,275698,1513636,5.49
+Fraser River,Chilko,1976,387467,1699113,4.385
+Fraser River,Chilko,1977,56782,199200,3.508
+Fraser River,Chilko,1978,159174,1265579,7.951
+Fraser River,Chilko,1979,272694,1721513,6.313
+Fraser River,Chilko,1980,498826,4441927,8.905
+Fraser River,Chilko,1981,36149,208706,5.773
+Fraser River,Chilko,1982,253551,1599217,6.307
+Fraser River,Chilko,1983,386571,2119741,5.483
+Fraser River,Chilko,1984,580664,676358,1.165
+Fraser River,Chilko,1985,88120,572968,6.502
+Fraser River,Chilko,1986,323971,4800439,14.817
+Fraser River,Chilko,1987,430492,4420836,10.269
+Fraser River,Chilko,1988,365790,3296360,9.012
+Fraser River,Chilko,1989,78647,3117371,39.638
+Fraser River,Chilko,1990,833313,2628585,3.154
+Fraser River,Chilko,1991,1039624,1382549,1.33
+Fraser River,Chilko,1992,515663,1866349,3.619
+Fraser River,Chilko,1993,561865,3963871,7.055
+Fraser River,Chilko,1994,452239,1419987,3.14
+Fraser River,Chilko,1995,547755,1274336,2.326
+Fraser River,Chilko,1996,989422,1363890,1.378
+Fraser River,Chilko,1997,993254,885013,0.891
+Fraser River,Chilko,1998,880944,536366,0.609
+Fraser River,Chilko,1999,891922,1570589,1.761
+Fraser River,Chilko,2000,759163,501890,0.661
+Fraser River,Chilko,2001,669920,1158636,1.73
+Fraser River,Chilko,2002,385042,1239287,3.219
+Fraser River,Chilko,2003,612239,384660,0.628
+Fraser River,Chilko,2004,92143,427715,4.642
+Fraser River,Chilko,2005,540481,337649,0.625
+Fraser River,Chilko,2006,469504,4993878,10.636
+Fraser River,Chilko,2007,306707,1221458,3.982
+Fraser River,Chilko,2008,250583,573557,2.289
+Fraser River,Chilko,2009,217778,1854451,8.515
+Fraser River,Chilko,2010,2462975,2806769,1.14
+Fraser River,Chilko,2011,919254,972133,1.058
+Fraser River,Chilko,2012,246605,232523,0.943
+Fraser River,Chilko,2013,1235222,478616,0.387
+Fraser River,Chilko,2014,1034250,1645755,1.591
+Fraser River,Chilko,2015,662707,217065,0.328
+Fraser River,Chilko,2016,155687,39926,0.256
+Fraser River,Chilko,2017,372212,1148359,3.085
+Fraser River,Chilko,2018,619623,1660007,2.679
+Fraser River,Chilko,2019,169877,NA,NA
+Fraser River,Chilko,2020,55490,NA,NA
+Fraser River,Chilko,2021,917861,NA,NA
+Fraser River,Chilko,2022,881315,NA,NA
+Fraser River,Chilko,2023,345517,NA,NA
+Fraser River,Chilko,2024,53326,NA,NA
+Fraser River,Chilko,2025,2444807,NA,NA
+Fraser River,Late Stuart,1948,1049,327,0.312
+Fraser River,Late Stuart,1949,107752,1530202,14.201
+Fraser River,Late Stuart,1950,5843,39681,6.791
+Fraser River,Late Stuart,1951,4402,63810,14.496
+Fraser River,Late Stuart,1952,1975,3973,2.012
+Fraser River,Late Stuart,1953,369023,1552239,4.206
+Fraser River,Late Stuart,1954,5470,137965,25.222
+Fraser River,Late Stuart,1955,7618,51345,6.74
+Fraser River,Late Stuart,1956,1454,46102,31.707
+Fraser River,Late Stuart,1957,531130,1329884,2.504
+Fraser River,Late Stuart,1958,23638,54677,2.313
+Fraser River,Late Stuart,1959,8225,7392,0.899
+Fraser River,Late Stuart,1960,2961,9617,3.248
+Fraser River,Late Stuart,1961,411105,778478,1.894
+Fraser River,Late Stuart,1962,18689,45069,2.412
+Fraser River,Late Stuart,1963,3237,12049,3.722
+Fraser River,Late Stuart,1964,1900,3101,1.632
+Fraser River,Late Stuart,1965,214958,1124519,5.231
+Fraser River,Late Stuart,1966,9032,74079,8.202
+Fraser River,Late Stuart,1967,1642,16556,10.083
+Fraser River,Late Stuart,1968,470,31299,66.594
+Fraser River,Late Stuart,1969,207057,1625590,7.851
+Fraser River,Late Stuart,1970,15055,70838,4.705
+Fraser River,Late Stuart,1971,1535,66770,43.498
+Fraser River,Late Stuart,1972,8704,18766,2.156
+Fraser River,Late Stuart,1973,214343,666098,3.108
+Fraser River,Late Stuart,1974,14627,50716,3.467
+Fraser River,Late Stuart,1975,14229,215116,15.118
+Fraser River,Late Stuart,1976,3000,3339,1.113
+Fraser River,Late Stuart,1977,146629,1357741,9.26
+Fraser River,Late Stuart,1978,13027,79447,6.099
+Fraser River,Late Stuart,1979,31918,6854,0.215
+Fraser River,Late Stuart,1980,979,21440,21.9
+Fraser River,Late Stuart,1981,249699,2033901,8.145
+Fraser River,Late Stuart,1982,16758,60989,3.639
+Fraser River,Late Stuart,1983,2246,17944,7.989
+Fraser River,Late Stuart,1984,1228,14744,12.007
+Fraser River,Late Stuart,1985,274642,3507629,12.772
+Fraser River,Late Stuart,1986,28715,816561,28.437
+Fraser River,Late Stuart,1987,6524,380071,58.257
+Fraser River,Late Stuart,1988,11459,208786,18.22
+Fraser River,Late Stuart,1989,575791,5327124,9.252
+Fraser River,Late Stuart,1990,190060,389823,2.051
+Fraser River,Late Stuart,1991,77322,109581,1.417
+Fraser River,Late Stuart,1992,23892,135399,5.667
+Fraser River,Late Stuart,1993,1805142,3764256,2.085
+Fraser River,Late Stuart,1994,76715,115440,1.505
+Fraser River,Late Stuart,1995,34362,133454,3.884
+Fraser River,Late Stuart,1996,65898,1023000,15.524
+Fraser River,Late Stuart,1997,907652,430895,0.475
+Fraser River,Late Stuart,1998,139421,277262,1.989
+Fraser River,Late Stuart,1999,62120,133622,2.151
+Fraser River,Late Stuart,2000,454478,913822,2.011
+Fraser River,Late Stuart,2001,351881,505343,1.436
+Fraser River,Late Stuart,2002,34521,125952,3.649
+Fraser River,Late Stuart,2003,38474,21783,0.566
+Fraser River,Late Stuart,2004,83447,282178,3.382
+Fraser River,Late Stuart,2005,293144,128650,0.439
+Fraser River,Late Stuart,2006,27515,162911,5.921
+Fraser River,Late Stuart,2007,8707,12358,1.419
+Fraser River,Late Stuart,2008,146658,195183,1.331
+Fraser River,Late Stuart,2009,87001,253441,2.913
+Fraser River,Late Stuart,2010,75289,311934,4.143
+Fraser River,Late Stuart,2011,4053,4850,1.197
+Fraser River,Late Stuart,2012,93159,36071,0.387
+Fraser River,Late Stuart,2013,132603,234466,1.768
+Fraser River,Late Stuart,2014,50691,320565,6.324
+Fraser River,Late Stuart,2015,11124,5841,0.525
+Fraser River,Late Stuart,2016,10066,11573,1.15
+Fraser River,Late Stuart,2017,147470,490753,3.328
+Fraser River,Late Stuart,2018,112189,223620,1.993
+Fraser River,Late Stuart,2019,5861,NA,NA
+Fraser River,Late Stuart,2020,4762,NA,NA
+Fraser River,Late Stuart,2021,380107,NA,NA
+Fraser River,Late Stuart,2022,87947,NA,NA
+Fraser River,Late Stuart,2023,20498,NA,NA
+Fraser River,Late Stuart,2024,46535,NA,NA
+Fraser River,Late Stuart,2025,1036242,NA,NA
+Fraser River,Quesnel,1948,100,618,6.18
+Fraser River,Quesnel,1949,30664,486378,15.862
+Fraser River,Quesnel,1950,398,2048,5.146
+Fraser River,Quesnel,1951,49,413,8.429
+Fraser River,Quesnel,1952,7017,562,0.08
+Fraser River,Quesnel,1953,110927,610245,5.501
+Fraser River,Quesnel,1954,299,10692,35.759
+Fraser River,Quesnel,1955,63,180,2.857
+Fraser River,Quesnel,1956,2669,1133,0.425
+Fraser River,Quesnel,1957,223667,999533,4.469
+Fraser River,Quesnel,1958,1863,3412,1.831
+Fraser River,Quesnel,1959,76,165,2.171
+Fraser River,Quesnel,1960,3057,1475,0.482
+Fraser River,Quesnel,1961,302563,1240890,4.101
+Fraser River,Quesnel,1962,1078,7287,6.76
+Fraser River,Quesnel,1963,86,956,11.116
+Fraser River,Quesnel,1964,15839,2812,0.178
+Fraser River,Quesnel,1965,364714,1667172,4.571
+Fraser River,Quesnel,1966,1753,7462,4.257
+Fraser River,Quesnel,1967,119,1761,14.798
+Fraser River,Quesnel,1968,5763,428,0.074
+Fraser River,Quesnel,1969,273134,1640832,6.007
+Fraser River,Quesnel,1970,1373,20339,14.814
+Fraser River,Quesnel,1971,171,747,4.368
+Fraser River,Quesnel,1972,3488,865,0.248
+Fraser River,Quesnel,1973,278061,2336434,8.403
+Fraser River,Quesnel,1974,4459,31024,6.958
+Fraser River,Quesnel,1975,201,1865,9.279
+Fraser River,Quesnel,1976,2197,1233,0.561
+Fraser River,Quesnel,1977,516223,3878522,7.513
+Fraser River,Quesnel,1978,8614,196724,22.838
+Fraser River,Quesnel,1979,511,6011,11.763
+Fraser River,Quesnel,1980,3176,2446,0.77
+Fraser River,Quesnel,1981,748652,9786652,13.072
+Fraser River,Quesnel,1982,39841,555542,13.944
+Fraser River,Quesnel,1983,2155,40412,18.753
+Fraser River,Quesnel,1984,6186,6953,1.124
+Fraser River,Quesnel,1985,1349263,12545239,9.298
+Fraser River,Quesnel,1986,181473,2532784,13.957
+Fraser River,Quesnel,1987,20559,176592,8.59
+Fraser River,Quesnel,1988,27034,26342,0.974
+Fraser River,Quesnel,1989,1870685,10641495,5.689
+Fraser River,Quesnel,1990,487651,3283634,6.734
+Fraser River,Quesnel,1991,46259,151175,3.268
+Fraser River,Quesnel,1992,8901,29214,3.282
+Fraser River,Quesnel,1993,2620757,6851040,2.614
+Fraser River,Quesnel,1994,659505,2477091,3.756
+Fraser River,Quesnel,1995,216110,167306,0.774
+Fraser River,Quesnel,1996,42499,90690,2.134
+Fraser River,Quesnel,1997,1858737,4692773,2.525
+Fraser River,Quesnel,1998,1179252,4739875,4.019
+Fraser River,Quesnel,1999,189360,810586,4.281
+Fraser River,Quesnel,2000,63782,53810,0.844
+Fraser River,Quesnel,2001,3505887,3701006,1.056
+Fraser River,Quesnel,2002,2985212,640265,0.214
+Fraser River,Quesnel,2003,278985,143876,0.516
+Fraser River,Quesnel,2004,10264,11816,1.151
+Fraser River,Quesnel,2005,1436388,217138,0.151
+Fraser River,Quesnel,2006,169091,628265,3.716
+Fraser River,Quesnel,2007,74715,79961,1.07
+Fraser River,Quesnel,2008,7091,7241,1.021
+Fraser River,Quesnel,2009,149451,320107,2.142
+Fraser River,Quesnel,2010,246584,2528603,10.255
+Fraser River,Quesnel,2011,45433,41422,0.912
+Fraser River,Quesnel,2012,624,502,0.804
+Fraser River,Quesnel,2013,179081,152587,0.852
+Fraser River,Quesnel,2014,832344,2172463,2.61
+Fraser River,Quesnel,2015,45357,6350,0.14
+Fraser River,Quesnel,2016,1081,1026,0.949
+Fraser River,Quesnel,2017,114581,121019,1.056
+Fraser River,Quesnel,2018,817777,1566279,1.915
+Fraser River,Quesnel,2019,21632,NA,NA
+Fraser River,Quesnel,2020,819,NA,NA
+Fraser River,Quesnel,2021,101847,NA,NA
+Fraser River,Quesnel,2022,827341,NA,NA
+Fraser River,Quesnel,2023,65723,NA,NA
+Fraser River,Quesnel,2024,9381,NA,NA
+Fraser River,Quesnel,2025,415128,NA,NA
+Fraser River,Raft,1948,10359,63337,6.114
+Fraser River,Raft,1949,6113,39626,6.482
+Fraser River,Raft,1950,6404,45556,7.114
+Fraser River,Raft,1951,8561,47653,5.566
+Fraser River,Raft,1952,15617,51182,3.277
+Fraser River,Raft,1953,7909,32124,4.062
+Fraser River,Raft,1954,9995,50488,5.051
+Fraser River,Raft,1955,5081,60522,11.911
+Fraser River,Raft,1956,9037,27140,3.003
+Fraser River,Raft,1957,6881,21015,3.054
+Fraser River,Raft,1958,10215,23143,2.266
+Fraser River,Raft,1959,10210,23614,2.313
+Fraser River,Raft,1960,5553,16948,3.052
+Fraser River,Raft,1961,7301,24325,3.332
+Fraser River,Raft,1962,7613,40549,5.326
+Fraser River,Raft,1963,8724,9817,1.125
+Fraser River,Raft,1964,5201,48724,9.368
+Fraser River,Raft,1965,6624,20626,3.114
+Fraser River,Raft,1966,6250,23539,3.766
+Fraser River,Raft,1967,1303,9658,7.412
+Fraser River,Raft,1968,8121,106397,13.101
+Fraser River,Raft,1969,5593,14370,2.569
+Fraser River,Raft,1970,4474,8860,1.98
+Fraser River,Raft,1971,840,12361,14.715
+Fraser River,Raft,1972,11151,57821,5.185
+Fraser River,Raft,1973,2729,9361,3.43
+Fraser River,Raft,1974,2396,12223,5.101
+Fraser River,Raft,1975,2664,6716,2.521
+Fraser River,Raft,1976,8684,19926,2.295
+Fraser River,Raft,1977,648,6940,10.71
+Fraser River,Raft,1978,2500,18748,7.499
+Fraser River,Raft,1979,1780,3039,1.707
+Fraser River,Raft,1980,5418,51723,9.547
+Fraser River,Raft,1981,873,8639,9.896
+Fraser River,Raft,1982,2992,3770,1.26
+Fraser River,Raft,1983,2857,5601,1.96
+Fraser River,Raft,1984,19098,47063,2.464
+Fraser River,Raft,1985,3638,4533,1.246
+Fraser River,Raft,1986,2126,3013,1.417
+Fraser River,Raft,1987,1512,3820,2.526
+Fraser River,Raft,1988,19857,50485,2.542
+Fraser River,Raft,1989,1647,11299,6.86
+Fraser River,Raft,1990,630,2544,4.038
+Fraser River,Raft,1991,464,1461,3.149
+Fraser River,Raft,1992,8242,67359,8.173
+Fraser River,Raft,1993,5047,33598,6.657
+Fraser River,Raft,1994,1712,28472,16.631
+Fraser River,Raft,1995,1046,27270,26.071
+Fraser River,Raft,1996,46615,112592,2.415
+Fraser River,Raft,1997,6093,51264,8.414
+Fraser River,Raft,1998,7229,16238,2.246
+Fraser River,Raft,1999,6979,61149,8.762
+Fraser River,Raft,2000,66292,115396,1.741
+Fraser River,Raft,2001,32506,96695,2.975
+Fraser River,Raft,2002,18461,42833,2.32
+Fraser River,Raft,2003,10093,8475,0.84
+Fraser River,Raft,2004,5611,52145,9.293
+Fraser River,Raft,2005,26501,9768,0.369
+Fraser River,Raft,2006,6073,18221,3
+Fraser River,Raft,2007,14357,11146,0.776
+Fraser River,Raft,2008,10406,19402,1.865
+Fraser River,Raft,2009,11464,37419,3.264
+Fraser River,Raft,2010,5119,44641,8.721
+Fraser River,Raft,2011,9243,23769,2.572
+Fraser River,Raft,2012,10008,21388,2.137
+Fraser River,Raft,2013,16394,5416,0.33
+Fraser River,Raft,2014,17102,11860,0.693
+Fraser River,Raft,2015,16054,1396,0.087
+Fraser River,Raft,2016,8150,7701,0.945
+Fraser River,Raft,2017,4518,4150,0.919
+Fraser River,Raft,2018,3544,9943,2.806
+Fraser River,Raft,2019,619,NA,NA
+Fraser River,Raft,2020,5099,NA,NA
+Fraser River,Raft,2021,3325,NA,NA
+Fraser River,Raft,2022,3868,NA,NA
+Fraser River,Raft,2023,10687,NA,NA
+Fraser River,Raft,2024,12861,NA,NA
+Fraser River,Raft,2025,27609,NA,NA
+Fraser River,Stellako,1948,16213,207177,12.778
+Fraser River,Stellako,1949,104835,179876,1.716
+Fraser River,Stellako,1950,145108,939117,6.472
+Fraser River,Stellako,1951,96208,455367,4.733
+Fraser River,Stellako,1952,40466,110701,2.736
+Fraser River,Stellako,1953,43688,174245,3.988
+Fraser River,Stellako,1954,141882,1211299,8.537
+Fraser River,Stellako,1955,51746,629796,12.171
+Fraser River,Stellako,1956,38459,246735,6.416
+Fraser River,Stellako,1957,38921,151843,3.901
+Fraser River,Stellako,1958,112273,340460,3.032
+Fraser River,Stellako,1959,79355,541420,6.823
+Fraser River,Stellako,1960,38884,164514,4.231
+Fraser River,Stellako,1961,47241,147402,3.12
+Fraser River,Stellako,1962,124495,589505,4.735
+Fraser River,Stellako,1963,138805,727926,5.244
+Fraser River,Stellako,1964,31047,177837,5.728
+Fraser River,Stellako,1965,39418,243651,6.181
+Fraser River,Stellako,1966,101684,359906,3.539
+Fraser River,Stellako,1967,91525,550524,6.015
+Fraser River,Stellako,1968,30420,129822,4.268
+Fraser River,Stellako,1969,49341,253245,5.133
+Fraser River,Stellako,1970,45876,234108,5.103
+Fraser River,Stellako,1971,39726,509267,12.819
+Fraser River,Stellako,1972,36771,756214,20.565
+Fraser River,Stellako,1973,30755,85901,2.793
+Fraser River,Stellako,1974,41473,303122,7.309
+Fraser River,Stellako,1975,176079,1904124,10.814
+Fraser River,Stellako,1976,150741,244357,1.621
+Fraser River,Stellako,1977,23452,265700,11.33
+Fraser River,Stellako,1978,60421,437405,7.239
+Fraser River,Stellako,1979,290116,623924,2.151
+Fraser River,Stellako,1980,72073,755406,10.481
+Fraser River,Stellako,1981,22021,285898,12.983
+Fraser River,Stellako,1982,69434,357773,5.153
+Fraser River,Stellako,1983,121739,1257480,10.329
+Fraser River,Stellako,1984,60973,1011189,16.584
+Fraser River,Stellako,1985,42296,128742,3.044
+Fraser River,Stellako,1986,77378,561845,7.261
+Fraser River,Stellako,1987,211111,435676,2.064
+Fraser River,Stellako,1988,367751,991499,2.696
+Fraser River,Stellako,1989,43189,222287,5.147
+Fraser River,Stellako,1990,93928,951836,10.134
+Fraser River,Stellako,1991,94931,336569,3.545
+Fraser River,Stellako,1992,97985,868461,8.863
+Fraser River,Stellako,1993,91443,309844,3.388
+Fraser River,Stellako,1994,136847,682889,4.99
+Fraser River,Stellako,1995,122780,183959,1.498
+Fraser River,Stellako,1996,332207,811994,2.444
+Fraser River,Stellako,1997,55410,125173,2.259
+Fraser River,Stellako,1998,185697,637997,3.436
+Fraser River,Stellako,1999,138151,174462,1.263
+Fraser River,Stellako,2000,371604,717671,1.931
+Fraser River,Stellako,2001,151482,287128,1.895
+Fraser River,Stellako,2002,322711,248375,0.77
+Fraser River,Stellako,2003,78093,49132,0.629
+Fraser River,Stellako,2004,86738,247930,2.858
+Fraser River,Stellako,2005,175346,11606,0.066
+Fraser River,Stellako,2006,147194,489095,3.323
+Fraser River,Stellako,2007,41481,128465,3.097
+Fraser River,Stellako,2008,159749,280220,1.754
+Fraser River,Stellako,2009,27627,203116,7.352
+Fraser River,Stellako,2010,202803,1647100,8.122
+Fraser River,Stellako,2011,85628,53701,0.627
+Fraser River,Stellako,2012,137992,49614,0.36
+Fraser River,Stellako,2013,110048,146505,1.331
+Fraser River,Stellako,2014,506157,392898,0.776
+Fraser River,Stellako,2015,101305,74550,0.736
+Fraser River,Stellako,2016,30307,41997,1.386
+Fraser River,Stellako,2017,91391,160136,1.752
+Fraser River,Stellako,2018,177252,242810,1.37
+Fraser River,Stellako,2019,46141,NA,NA
+Fraser River,Stellako,2020,44411,NA,NA
+Fraser River,Stellako,2021,117709,NA,NA
+Fraser River,Stellako,2022,125931,NA,NA
+Fraser River,Stellako,2023,107580,NA,NA
+Fraser River,Stellako,2024,65165,NA,NA
+Fraser River,Stellako,2025,250123,NA,NA
