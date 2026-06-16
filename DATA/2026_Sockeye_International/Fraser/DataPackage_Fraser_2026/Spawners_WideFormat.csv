@@ -1,10 +1,3 @@
-# FRASER SOCKEYE TOTAL SPAWNERS
-# Data extracted from the Pacific Salmon Commission data page in June 2026
-# Specifically the detailed version of the Fraser Sockeye Spawner-Recruit Data Set at
-# https://www.psc.org/publications/data/fraser-sockeye-stock-recruit-dataset/
-# The same website has detailed documentation for the data
-# NOTES for this data set are available at https://github.com/SOLV-Code/SalmonPrize_DataManagement/tree/main/DATA/2026_Sockeye_International/Fraser
-# IMPORTANT: Missing recent years are filled in from file provided by DFO (Kaitlyn Dionne; Brian Smith)
 BroodYear,Late Stuart,Stellako,Raft,Quesnel,Chilko
 1948,1049,16213,10359,100,671025
 1949,107752,104835,6113,30664,58310

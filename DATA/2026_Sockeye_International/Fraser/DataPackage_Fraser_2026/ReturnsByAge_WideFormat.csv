@@ -1,10 +1,3 @@
-# FRASER SOCKEYE RETURNS BY AGE
-# Data extracted from the Pacific Salmon Commission data page in June 2026
-# Specifically the detailed version of the Fraser Sockeye Spawner-Recruit Data Set at
-# https://www.psc.org/publications/data/fraser-sockeye-stock-recruit-dataset/
-# The same website has detailed documentation for the data
-# NOTES for this data set are available at https://github.com/SOLV-Code/SalmonPrize_DataManagement/tree/main/DATA/2026_Sockeye_International/Fraser
-# IMPORTANT: Total_Returns are the sum of Ages 1.1; 1.2; 1.3; 2.2
 System,River,ReturnYear,Total_Returns,AgeClass_0.1,AgeClass_0.2,AgeClass_1.1,AgeClass_0.3,AgeClass_1.2,AgeClass_2.1,AgeClass_0.4,AgeClass_1.3,AgeClass_2.2,AgeClass_1.4,AgeClass_2.3,AgeClass_3.2,AgeClass_1.5
 Fraser River,Late Stuart,1950,NA,0,NA,0,NA,NA,NA,NA,NA,0,NA,NA,NA,NA
 Fraser River,Late Stuart,1951,NA,0,0,0,NA,NA,NA,NA,NA,0,NA,NA,NA,NA

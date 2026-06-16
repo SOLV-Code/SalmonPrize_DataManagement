@@ -2,9 +2,9 @@
 
 Most of the data was extracted from the Pacific Salmon Commission data page in June 2026. 
 
-* All the returns by age and spawner estimates through 2024 are extracted from the detailed version of the [Fraser Sockeye Spawner-Recruit Data Set][https://www.psc.org/publications/data/fraser-sockeye-stock-recruit-dataset/]. .
+* All the returns by age and spawner estimates through 2024 are extracted from the detailed version of the [Fraser Sockeye Spawner-Recruit Data Set][https://www.psc.org/publications/data/fraser-sockeye-stock-recruit-dataset/]. The code that does the extraction is in [this script](https://github.com/SOLV-Code/SalmonPrize_DataManagement/blob/main/CODE/1_ReorganizeData.R). The downloaded source file is [here](https://github.com/SOLV-Code/SalmonPrize_DataManagement/tree/main/DATA/2026_Sockeye_International/Fraser/1_SourceData/PSC_Download).
 
-* 2025 spawner estimates were provided by DFO (Kaitlyn Dionne, Brian Smith) in June 2026.
+* Spawner estimates through 2025 were provided by DFO (Kaitlyn Dionne, Brian Smith) in June 2026. Any recent spawner estimates missing from the PSC surce file are filled in from the DFO spawner file, which is [here](The downloaded source file is [here](https://github.com/SOLV-Code/SalmonPrize_DataManagement/tree/main/DATA/2026_Sockeye_International/Fraser/1_SourceData/DFO_SpawnerFile).
 
 
 Some important notes regarding these data are listed below. For more details, refer to the [data documentation report](https://www.psc.org/download/130/frp-data/19739/stock-recruit-data-documentation.pdf)
