@@ -159,6 +159,26 @@ reorg_data(path = "DATA/2026_Sockeye_International/Columbia",
             # 2019 is the last year for which we have age 6 recruits
 
 
+
+
+
+####################################################################################
+# 2026 Sockeye International - BRISTOL BAY
+####################################################################################
+
+reorg_data(path = "DATA/2026_Sockeye_International/BristolBay",
+           label= "DataPackage_BristolBay_2026",
+           sr.last.bryr = 2019)
+# have returns for 2025, and using ages 3:6
+# 2019 is the last year for which we have age 6 recruits
+
+
+
+
+
+
+
+
 ####################################################################################
 # 2026 Sockeye International - FRASER
 ####################################################################################

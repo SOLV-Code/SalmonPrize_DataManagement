@@ -20,6 +20,6 @@ Some important notes regarding these data are listed below. For more details, re
 
 * For forecasting, the post-RSA run size estimate should be used when available, but the in-season run size estimates can be used when the post-RSA run size estimates are not yet available. Forecasters should be aware of the difference in the quality of the estimates. This is the reason why PSC provides the detailed stock-recruit file so it is clear for which years post-RSA estimates are not yet available.
 
-* Occasionaly, past years of data are updated as well through the RSA process, so make sure to always update all years of data for the salmon prize data pack!
+* Occasionally, past years of data are updated as well through the RSA process, so make sure to always update all years of data for the salmon prize data pack!
 
 * The spawner estimates included here as the default are total brood year spawners, but an alternate version showing effective female spawners (i.e., accounting for pre-spawn mortality and sex ratio) is also included as a separate source.
