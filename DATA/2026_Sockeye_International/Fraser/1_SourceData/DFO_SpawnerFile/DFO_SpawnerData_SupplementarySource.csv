@@ -1,5 +1,5 @@
 # FRASER SOCKEYE SPAWNER DATA,,,,,,
-# Note: Used only to supllement missing recent years from the PSC download file,,,,,,
+# Note: Used only to supplement missing recent years from the PSC download file,,,,,,
 # The main variable used for the data pack is total spawners. An alternative source file with effective female spawners is also included,,,,,,
 BroodYear,Variable,Chilko,Late Stuart,Quesnel,Raft,Stellako
 1948,TotalSpawners,671025,1049,100,10359,16213
