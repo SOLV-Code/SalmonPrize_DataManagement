@@ -192,7 +192,68 @@ psc.sr.src <- read_csv("DATA/2026_Sockeye_International/Fraser/1_SourceData/PSC_
   left_join(ages.lookup %>% select(Euro,GRShort) %>% dplyr::rename(age = GRShort), by = "age")
 
 
-sort(unique(psc.sr.src$production_stock_name))
+
+################################################################################
+# FIX 2 MISSING RECORDS: 5_2 from 2020 Brood year for Raft and Quesnel
+
+# Some Diagnostic plots
+
+stk.plot <- "Quesnel"   # "Raft" OR "Quesnel"
+
+
+sr.src <-  psc.sr.src %>% dplyr::filter(production_stock_name == stk.plot , age %in% c(52,42)) %>%
+              pivot_wider(id_cols = c(broodyr), names_from = age,names_prefix = "Age",values_from = num_recruits) %>%
+              mutate(Scalar = Age52/Age42) %>%
+              mutate(Age52 = Age52/1000) %>%
+              mutate(Age42 = Age42/1000)
+
+
+
+plot(sr.src$broodyr,sr.src$Scalar*100,type="o",col="darkblue",
+     pch=19, main="Scalar (Age52/Age42)",las=1, bty = "n",
+     ylab = "Percent (%)",xlab="Brood Year")
+
+
+
+recent.idx <- sr.src$broodyr >= 2010
+recent.idx
+
+
+plot(sr.src$Age42,sr.src$Age52,las=1, main =  "Recruits by Age Calculation",
+    xlab = "Spawner Abundance - Age 4_2 (1.2)",
+    ylab = "Spawner Abundance - Age 5_2 (1.3)")
+
+points(sr.src$Age42[recent.idx],sr.src$Age52[recent.idx],col="red",pch=19)
+
+sib.fit <- lm(Age52 ~ Age42,data = sr.src[recent.idx,])
+
+fitted.vals <- predict(sib.fit, sr.src[recent.idx,] %>% dplyr::select(broodyr, Age42) )
+
+
+plot(sr.src$broodyr,sr.src$Age52 ,type="o",col="darkblue",
+          pch=19, main="Obs vs. Pred Age 5_2 (1.3)\n(based on Simple Sibling Regression: Age52 ~ Age 42",las=1, bty = "n",
+          ylab = "Spawner Abundance (1000)",xlab="Brood Year")
+
+points(sr.src$broodyr[recent.idx],fitted.vals,col="red")
+
+
+
+# SIB REG BASED ON RECENT YEARS FITS ALRIGHT, USE THAT TO INFILL
+
+
+
+
+
+
+
+
+
+
+
+# END OF TEMP PATCH
+#############################################################################
+
+
 
 # extract returns by age
 
