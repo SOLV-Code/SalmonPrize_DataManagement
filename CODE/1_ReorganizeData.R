@@ -194,11 +194,13 @@ psc.sr.src <- read_csv("DATA/2026_Sockeye_International/Fraser/1_SourceData/PSC_
 
 
 ################################################################################
-# FIX 2 MISSING RECORDS: 5_2 from 2020 Brood year for Raft and Quesnel
+# TEMPORARY PATCH TO FIX 2 MISSING RECORDS: 5_2 from 2020 Brood year for Raft and Quesnel
 
 # Some Diagnostic plots
 
-stk.plot <- "Quesnel"   # "Raft" OR "Quesnel"
+if(TRUE){
+
+for(stk.plot in c("Raft","Quesnel")){
 
 
 sr.src <-  psc.sr.src %>% dplyr::filter(production_stock_name == stk.plot , age %in% c(52,42)) %>%
@@ -215,7 +217,7 @@ plot(sr.src$broodyr,sr.src$Scalar*100,type="o",col="darkblue",
 
 
 
-recent.idx <- sr.src$broodyr >= 2010
+recent.idx <- sr.src$broodyr %in% 2010:2020
 recent.idx
 
 
@@ -229,28 +231,35 @@ sib.fit <- lm(Age52 ~ Age42,data = sr.src[recent.idx,])
 
 fitted.vals <- predict(sib.fit, sr.src[recent.idx,] %>% dplyr::select(broodyr, Age42) )
 
+fitted.df <- data.frame(broodyr = sr.src$broodyr[recent.idx],num_recruits = fitted.vals)
+fitted.df
+
+png(filename = paste0("DATA/2026_Sockeye_International/Fraser/2_Infill_Diagnostics/",stk.plot,"_Age52_Infill_Results.png"),
+    width = 480*5.5, height = 480*3.9, units = "px", pointsize = 14*3.7, bg = "white",  res = NA)
+
 
 plot(sr.src$broodyr,sr.src$Age52 ,type="o",col="darkblue",
-          pch=19, main="Obs vs. Pred Age 5_2 (1.3)\n(based on Simple Sibling Regression: Age52 ~ Age 42",las=1, bty = "n",
-          ylab = "Spawner Abundance (1000)",xlab="Brood Year")
+          pch=19,
+          main=paste0(stk.plot," - Obs vs. Pred Age 5_2 (1.3)\n(based on Simple Sibling Regression: Age52 ~ Age 42)"),
+          las=1, bty = "n",
+          ylab = "Spawner Abundance (1000)",xlab="Brood Year",
+          xlim = c(1990,2020))
 
-points(sr.src$broodyr[recent.idx],fitted.vals,col="red")
+points(fitted.df$broodyr,fitted.df$num_recruits,col="red",cex=1.4)
 
+dev.off()
 
+# SIB REG BASED ON RECENT YEARS FITS ALRIGHT, USE THAT TO INFILL 2025 AGE 5 RETURNS
 
-# SIB REG BASED ON RECENT YEARS FITS ALRIGHT, USE THAT TO INFILL
-
-
-
-
-
-
-
+psc.sr.src[psc.sr.src$stock_broodyr_age == paste0(stk.plot,"_2020_52"),"num_recruits"] <- round(fitted.df[fitted.df$broodyr == 2020,"num_recruits"]*1000)
 
 
+} # end looping through stocks for which to infill Age 5_2 from 2020 Brood Year
 
 
-# END OF TEMP PATCH
+
+
+} # END OF TEMP PATCH
 #############################################################################
 
 
